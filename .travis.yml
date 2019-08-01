@@ -9,9 +9,8 @@ before_install:
 script:
   - docker run -e CI=true apatil3/docker-react npm run test -- --coverage
 
-
 deploy:
-  provider: elasticbeanstack
+  provider: "elasticbeanstalk"
   region: "us-east-1"
   app: "docker-react"
   env: "Docker-react-env"
