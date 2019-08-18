@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi there! My name is Amita
+          Hi there! My name is Amit and I don't know how to make Complex project work.Please help!!!!!!
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bye there! My Name is Amit
+          I am clueless
         </a>
       </header>
     </div>
